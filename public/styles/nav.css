@@ -17,3 +17,31 @@
     height: 80px;
     float: left;
 }
+
+#nav-bar ul {
+   list-style: none;
+   float: right;
+   margin: 0;
+}
+
+#nav-bar ul li a {
+  display: inline-block;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  vertical-align: middle;
+  margin: 10px;
+  font-size: 1.2em;
+  line-height: 44px;
+  background-color: #E8FDFF;
+  color: #00a087;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+#nav-bar ul li a:hover {
+  background-color: #4cbcab;
+  color: #E8FDFF;
+  border-color: #E8FDff;
+}

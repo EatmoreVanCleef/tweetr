@@ -4,6 +4,11 @@
     margin: 2em;
     border-radius: 4px;
     border: 1px solid #d3d3d3;
+    max-height: 210px;
+    transition: max-height 300ms;
+}
+.new-tweet.hidden {
+    max-height: 0;
 }
 .new-tweet h2 {
     margin-top: 0;
@@ -20,4 +25,13 @@
 }
 .new-tweet .counter.invalid {
     color: red;
+}
+.new-tweet .warning-container {
+    padding-top: 0.5em;
+}
+.new-tweet .warn {
+    color: red;
+    text-transform: uppercase;
+    transition: 300ms;
+    margin-top: 0.5em;
 }
